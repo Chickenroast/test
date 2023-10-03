@@ -116,33 +116,32 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
 
 # Menu
 
-
 ## Onze Menukaart
 
 ### Voorgerechten
-- **Gerookte Zalm Carpaccio**
+- **Gerookte Zalm Carpaccio** ![Image](food1.jpg)
   - Met limoen-dille dressing en kappertjes.
   - €12,50
 
-- **Artisjokhart Salade**
+- **Artisjokhart Salade** ![Image](food6.jpg)
   - Met verse tomaten en balsamico glazuur.
   - €10,00
 
 ### Hoofdgerechten
-- **Filet Mignon**
+- **Filet Mignon** ![Image](food3.jpg)
   - Met truffeljus en geroosterde groenten.
   - €28,00
 
-- **Gebakken Zeebaars**
+- **Gebakken Zeebaars** ![Image](food2.jpg)
   - Op een bedje van spinazie en saffraansaus.
   - €25,50
 
 ### Desserts
-- **Crème Brûlée**
+- **Crème Brûlée** ![Image](food4.jpg)
   - Met vanille en gekarameliseerde suiker.
   - €9,00
 
-- **Chocolade Lava Cake**
+- **Chocolade Lava Cake** ![Image](food5.jpg)
   - Met gesmolten chocoladevulling en vanille-ijs.
   - €10,50
 
@@ -150,61 +149,51 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
 
 ## Drankenkaart
 
-### Aperitieven
-- **Kir Royale**
-  - Crème de cassis en champagne.
-  - €9,50
-
-- **Aperol Spritz**
-  - Aperol, prosecco en bruisend water.
-  - €8,00
-
 ### Witte Wijnen
-- **Chardonnay Reserve**
+- **Chardonnay Reserve** ![Image](boisson7.jpg)
   - Een volle, romige wijn met tonen van vanille en perzik.
   - Glas: €7,50 / Fles: €35,00
 
-- **Sauvignon Blanc**
+- **Sauvignon Blanc** ![Image](boisson4.jpg)
   - Fris en fruitig met hints van groene appel en citrus.
   - Glas: €6,50 / Fles: €30,00
 
 ### Rode Wijnen
-- **Merlot**
+- **Merlot** ![Image](boisson5.jpg)
   - Zachte wijn met aroma's van rijpe pruimen en kruiden.
   - Glas: €7,00 / Fles: €32,00
 
-- **Cabernet Sauvignon**
+- **Cabernet Sauvignon** ![Image](boisson10.jpg)
   - Krachtig en robuust met tonen van zwarte bessen en eiken.
   - Glas: €8,00 / Fles: €38,00
 
 ### Speciale Dranken
-- **Gin-Tonic**
+- **Gin-Tonic** ![Image](boisson6.jpg)
   - Keuze uit verschillende premium gins en tonics.
   - €10,00
 
-- **Whiskey Sour**
+- **Whiskey Sour** ![Image](boisson1.jpg)
   - Bourbon, citroensap en suikersiroop.
   - €9,00
 
 ### Niet-alcoholische Dranken
-- **Virgin Mojito**
+- **Virgin Mojito** ![Image](boisson2.jpg)
   - Fris met limoen, munt en bruisend water.
   - €5,00
 
-- **Frisdranken**
+- **Frisdranken** ![Image](lien_vers_image)
   - Coca-Cola, Sprite, Fanta, en meer.
   - €3,50
 
 ### Koffie en Thee
-- **Espresso**
+- **Espresso** ![Image](boisson8.jpg)
   - €3,00
 
-- **Cappuccino**
+- **Cappuccino** ![Image](boisson9.jpg)
   - €4,00
 
-- **Verse Muntthee**
+- **Verse Muntthee** ![Image](boisson3.jpg)
   - €4,50
-
 
 ![résultats google](menumockup.jpg) 
 
@@ -225,4 +214,6 @@ Il faudra faire attention que les 2 mise en page restent l'une en mobile et l'un
 - Voici la doc pour le **JavaScript behavior** à essayer: [Link](https://getbootstrap.com/docs/5.0/components/list-group/#javascript-behavior)
 
 - Voici la doc pour les **Horizontal & vertical gutters**: [Link](https://getbootstrap.com/docs/5.0/layout/gutters/#horizontal--vertical-gutters)
+
 -----------
+
