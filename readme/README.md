@@ -71,7 +71,7 @@ Maintenant que nous avons le nom, le domaine et le type de nourriture concentron
 
 ---
 
-#### Panels [Link](https://www.devwares.com/docs/contrast/javascript/components/panels/) / Réaliser un message Marketing sur la page d'atterissage.
+#### Panels = Card [Link](https://www.w3schools.com/bootstrap5/bootstrap_cards.php) / Réaliser un message Marketing sur la page d'atterissage.
 
 <div class="panel" style="width: 25rem">
   <div class="panel-img">
