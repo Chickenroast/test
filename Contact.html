@@ -6,41 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="css/custom.min.css" rel="stylesheet">
+    <!-- <link href="scss/custompro.css" rel="stylesheet"> -->
     <title>Restaurant-Gastro</title>
   </head>
 
-  <header><nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <header>
+    <nav class="navbar navbar-light bg-primary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Welcome.html">Restaurant-Gastro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Onze Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="Welcome.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Menu.html">Menu</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+    <!-- <nav class="navbar navbar-expand-sm bg-primary navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/readme/logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+      </a>
+    </div>
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Welcome</a>
+          <a class="nav-link active" href="/Welcome.html">Welcome</a>
         </li>
        <li class="nav-item">
-          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link" href="/Menu.html">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pictures</a>
+          <a class="nav-link" href="/Onze MenuKaart.html">Pictures</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Restaurant</a>
+          <a class="nav-link" href="/Restaurant.html">Restaurant</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/Contact.html">Contact</a>
           </li>
       </ul>
     </div>
-  </nav></header>
+  </nav> -->
+</header>
 
-
-  <body>
-
-    <div class="has-bg-img p-5" style= "background-image: url('/readme/contactus.jpg');">
+  <body class="bg-secondary">
+    <!-- JUMBO -->
+    <div class="has-bg-img p-5 mb-5" style= "background-size: cover; background-repeat: no-repeat; background-image: url('/readme/bground.jpg'); height: 250px;">
+      <div class="text-center mt-4" >
+          <h1>Exclusieve Culinaire</h1>
+          <h3 class="rounded-2">Culinaire Kunst in Elke Beet</h3>
+        </div>
+    </div>
+    <h2 class="text-center mt-4">CONTACT</h2>
+    <hr>
+    <!-- <div class="has-bg-img p-5" style= "background-image: url('/readme/contactus.jpg');">
         <div class="text-center text-white" >
             <h1>CONTACT</h1>
             <h3 class="rounded-2">Laat van je horen, we horen graag van je!</h3>
           </div>
-      </div>
+      </div> -->
 
 <!-- FORM -->
     <form class="container p-5 container-lg">
@@ -89,14 +132,20 @@
     </div>
 
 
-<!-- FOOTER A TRAVAILLER-->
-<footer class="bg-primary text-white text-center text-lg-start">
+<!-- FOOTER-->
+<footer class="bg-primary text-white">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
     <div class="row">
       <!--Grid column-->
-      <div class="col-4">
+      <div>
+
+      </div>
+      <div class="col-7">
+        <a class="navbar-brand" href="#">
+          <img src="/readme/logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+        </a>
         <h5 class="text-uppercase">Restaurant-Gastro</h5>
 
         <p>
@@ -106,17 +155,15 @@
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-8">
-        <h5 class="text-uppercase">Links</h5>
-        <ul>
-          <li><a href="#Welcome" class="text-white">Welcome</a></li>
-          <li><a href="#menu" class="text-white">Menu</a></li>
-          <li><a href="#pictures" class="text-white">Pictures</a></li>
-          <li><a href="#restaurant" class="text-white">Restaurant</a></li>
-          <li><a href="#contact" class="text-white">Contact</a></li>
+      <div class="col-5 text-end">
+        <h5 class="text-uppercase">De Smaak van Verfijning</h5>
+        <ul class="list-unstyled">
+          <li><a href="/Welcome.html" class="text-white">Welkom</a></li>
+          <li><a href="/Menu.html" class="text-white">Menu</a></li>
+          <li><a href="/Onze MenuKaart.html" class="text-white">Onze Producten</a></li>
+          <li><a href="/Restaurant.html" class="text-white">Restaurant</a></li>
+          <li><a href="/Contact.html" class="text-white">Contact</a></li>
       </ul>
-      </div>
-    </div>
 
 
 
