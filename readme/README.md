@@ -4,9 +4,9 @@
 
 1. Choose a **restaurant Name and a type of Food**
 
-2. Create a **Website responsive**
+1. Create a **Website responsive**
 
-1. **5 pages** 
+1. **5 pages**
 
 ## Pages
 
@@ -26,19 +26,19 @@
 
 #### voici les résultats :
 
->pour tout les résultats la concurrence est faible
+> pour tout les résultats la concurrence est faible
 
-| Keyword  | Volume   | Variation 3mois  |
-| ------- | -------- | -------- |
-| restaurant halal   | 1k-10k    | +900% |
-| restaurant gastronomique  | 1k-10K|+900%|
-|kebab     | 10k-100k ||
-|restaurant   | 1M-10M ||
+| Keyword                  | Volume   | Variation 3mois |
+| ------------------------ | -------- | --------------- |
+| restaurant halal         | 1k-10k   | +900%           |
+| restaurant gastronomique | 1k-10K   | +900%           |
+| kebab                    | 10k-100k |                 |
+| restaurant               | 1M-10M   |                 |
 
 Suite à ces données, je peux interpréter que le mot **restaurant** est un des mots les plus intéressants par de la de son **volume de recherche.**
 Le plus intéressant serait de lancer une campagne avec ce Keyword. Et de l'insérer dans le **nom de domaine**.
 
-![résultats google](graphique%20campagne.png) 
+![résultats google](graphique%20campagne.png)
 
 > d'aprés le graphique si dessus les régions Flamandes générerais plus de clics donc je pense que nous allons nous lancer sur un site en Ndls !
 
@@ -46,19 +46,21 @@ Pour le **domaine** je suis resté sur la combinaison de **restaurant + gastro**
 
 ![résultats domaine](domaine.png)
 
------ 
+---
 
 ## Second Step
 
 Maintenant que nous avons le nom, le domaine et le type de nourriture concentrons nous sur la composition du site.
 
-----
+---
+
 # Welcome
 
 #### Jumbotron [Link](https://www.w3schools.com/bootstrap5/bootstrap_jumbotron.php) / Réaliser un message Marketing sur la page d'atterissage.
 
->------
-><div class="jumbotron">
+> ---
+>
+> <div class="jumbotron">
 >  <h1 class="display-4">Ontdek Restaurant-Gastro van Vlaanderen</h1>
 >  <p class="lead">Duik in een culinaire reis naar het hart van Vlaanderen, waar authenticiteit samensmelt met gastronomische elegantie.</p>
 >  <hr class="my-4">
@@ -66,8 +68,8 @@ Maintenant que nous avons le nom, le domaine et le type de nourriture concentron
 >  <p class="lead">
 >    <a class="btn btn-primary btn-lg" href="#"role="button">Reserveer een Tafel</a>
 >  </p>
-></div>
->--
+> </div>
+> --
 
 ---
 
@@ -86,7 +88,7 @@ Maintenant que nous avons le nom, le domaine et le type de nourriture concentron
   </div>
 </div>
 
------------
+---
 
 <div class="panel" style="width: 25rem">
   <div class="panel-img">
@@ -102,7 +104,7 @@ Maintenant que nous avons le nom, le domaine et le type de nourriture concentron
   </div>
 </div>
 
-------
+---
 
 #### Oublie pas les Grid ou les Columns
 
@@ -112,14 +114,16 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
 
 - Voici la doc pour les **Gutters** à essayer : [Link](https://getbootstrap.com/docs/5.2/layout/gutters/)
 
------------
+---
 
 # Menu
 
 ## Onze Menukaart
 
 ### Voorgerechten
+
 - **Gerookte Zalm Carpaccio** ![Image](food1.jpg)
+
   - Met limoen-dille dressing en kappertjes.
   - €12,50
 
@@ -128,7 +132,9 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
   - €10,00
 
 ### Hoofdgerechten
+
 - **Filet Mignon** ![Image](food3.jpg)
+
   - Met truffeljus en geroosterde groenten.
   - €28,00
 
@@ -137,7 +143,9 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
   - €25,50
 
 ### Desserts
+
 - **Crème Brûlée** ![Image](food4.jpg)
+
   - Met vanille en gekarameliseerde suiker.
   - €9,00
 
@@ -145,12 +153,14 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
   - Met gesmolten chocoladevulling en vanille-ijs.
   - €10,50
 
-----------
+---
 
 ## Drankenkaart
 
 ### Witte Wijnen
+
 - **Chardonnay Reserve** ![Image](boisson7.jpg)
+
   - Een volle, romige wijn met tonen van vanille en perzik.
   - Glas: €7,50 / Fles: €35,00
 
@@ -159,7 +169,9 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
   - Glas: €6,50 / Fles: €30,00
 
 ### Rode Wijnen
+
 - **Merlot** ![Image](boisson5.jpg)
+
   - Zachte wijn met aroma's van rijpe pruimen en kruiden.
   - Glas: €7,00 / Fles: €32,00
 
@@ -168,7 +180,9 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
   - Glas: €8,00 / Fles: €38,00
 
 ### Speciale Dranken
+
 - **Gin-Tonic** ![Image](boisson6.jpg)
+
   - Keuze uit verschillende premium gins en tonics.
   - €10,00
 
@@ -177,7 +191,9 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
   - €9,00
 
 ### Niet-alcoholische Dranken
+
 - **Virgin Mojito** ![Image](boisson2.jpg)
+
   - Fris met limoen, munt en bruisend water.
   - €5,00
 
@@ -186,34 +202,32 @@ Il faudra par la suite creer 2 colonnes avec ces deux panel.
   - €3,50
 
 ### Koffie en Thee
+
 - **Espresso** ![Image](boisson8.jpg)
+
   - €3,00
 
 - **Cappuccino** ![Image](boisson9.jpg)
+
   - €4,00
 
 - **Verse Muntthee** ![Image](boisson3.jpg)
   - €4,50
 
-![résultats google](menumockup.jpg) 
+### Les images
 
-> Sur la carte on a donc 2 cartes, on peut faire une image comme un livre ouvert style mockup sur **la version pc**.
+![Image](/readme/carroussel_0000_Calque%203.jpg)
 
-![résultats google](exemplemobile.png) 
+prise sur unplash
 
->Sur **la version mobile** on pourrais faire un Grid avec 2 produits par colonne, et un nav pour naviguer d'une catégorie à une autre.
+![Image](/readme/carroussel_0001_Calque%202.jpg)
 
-------
+prise sur unplash
 
-#### Les Breakpoints 
+![Image](/readme/carroussel_0002_Calque%201.jpg)
 
-Il faudra faire attention que les 2 mise en page restent l'une en mobile et l'une en desktop et tablette.
+prise sur unplash
 
-- Voici la doc pour les **Breakpoints** : [Link](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+![Image](/readme/bground.jpg)
 
-- Voici la doc pour le **JavaScript behavior** à essayer: [Link](https://getbootstrap.com/docs/5.0/components/list-group/#javascript-behavior)
-
-- Voici la doc pour les **Horizontal & vertical gutters**: [Link](https://getbootstrap.com/docs/5.0/layout/gutters/#horizontal--vertical-gutters)
-
------------
-
+prise sur mon compte canva
