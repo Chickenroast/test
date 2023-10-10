@@ -3,5 +3,5 @@ $secondary: #fcfcfc;
 $headings-font-weight: 500pt;
 $h1-font-size: 5rem;
 $h2-font-size: 2.5rem;
-
+@import "../node_modules/bootstrap/scss/offcanvas.scss";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
